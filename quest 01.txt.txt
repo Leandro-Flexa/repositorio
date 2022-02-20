@@ -1,0 +1,6 @@
+n = int(input("Quantos degrais terá a sua escada?"))
+for i in range(0,n):
+    if i == n-1:
+        print(str("*"*n))
+    else:
+        print(str("  "(n-(i+1)) + str("" * (i+1))))
